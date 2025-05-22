@@ -1,0 +1,227 @@
+body {
+    /* background-color: rgb(210, 246, 242); */
+    color: rgb(58, 3, 3);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-image: url("./original15.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+.name {
+    /* border: 1px solid rgb(244, 241, 241); */
+    height: 120px;
+
+}
+.baner {
+    background-image: url("./banerready.jpg");
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: fixed;
+
+    /* 
+    
+    background-size: 100%;
+    padding: 100px 0 100px 0; */
+    
+    /* display: flex; */
+
+}
+.avatar {
+    border-radius: 28px;
+    box-shadow: 4px 4px 8px  rgba(247, 246, 239, 0.4);
+    margin-left: 20px;
+}
+.overflow {
+    color: rgb(19, 13, 23);
+    
+}
+.overflow p {
+    font-style: italic;
+    color: rgb(217, 80, 7);
+    -webkit-text-stroke: 0.2px white;
+    
+    margin-left: 20px;
+    
+    
+}
+.overflow h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 42px;
+}
+.container {
+    margin-bottom: 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.container h2 {
+    color: rgb(244, 36, 36);
+    margin-left: 150px;
+    
+}
+/* .container li {
+    color: red;
+    
+} */
+.container td {
+    color: rgb(161, 9, 9);  
+}
+
+
+    
+
+input {
+    border: 2px solid #85A38D;
+    padding: 10px 20px;
+    margin: 5px;
+    text-transform: capitalize;
+    color: #839fa7;
+    border-radius: 8px;
+    box-shadow: 4px 4px 14px  rgba(0, 0, 0, 025);
+}
+button {
+    border: 2px solid rgb(175, 206, 244);
+    padding: 10px 40px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #03c1fb;
+    margin: 2px;
+    margin-left:105px;
+    font-weight: 900;
+    border-radius: 8px;
+    box-shadow: 4px 4px 14px  rgba(0, 0, 0, 025);
+    cursor: pointer;
+
+}
+.button:hover {
+    opacity: 0.1;
+    
+}
+.contacts1{
+    background-color: black;
+    padding: 40px 100px;
+    flex-flow: row wrap;
+    
+    
+    
+}
+.contacts > div {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: black;
+    border-top: 5px solid red;
+    box-sizing: border-box;
+    padding: 40px 100px;
+    flex-flow: row wrap;
+    
+   
+}
+.contacts h2 {
+    color: rgb(233, 194, 194);
+  
+    
+
+}
+.contacts li {
+    color: #FFF;
+    
+    
+}
+.contacts a {
+    color: aqua;
+}
+.form label {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+.form input, 
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(233, 181, 181);
+    color: white;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+    
+}
+.form textarea {
+    padding: 30px;
+}
+.knowledge__list {
+    /* list-style: none; */
+    text-shadow: 1px 1px 3px rgb(244, 231, 231), 0 0 1em rgb(2, 2, 252), 0 0 0.2em rgb(251, 3, 3);
+    color: #FFF;
+    
+}
+a {
+    color: rgb(55, 0, 255);
+    text-shadow: 1px 1px 2px white;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(0, 255, 30);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(17, 17, 18);
+    
+}
+
+/* .bg-yellow {
+    background: rgba(245, 245, 216, 0.3);
+    
+}
+.bg-red {
+    background: rgba(246, 222, 222, 0.3);
+    
+}
+.bg-green {
+    background: rgba(217, 210, 218, 0.3);
+    
+} */
+.list {
+    color: rgb(248, 248, 250);
+    /* text-shadow: 1px 1px 2px white; */
+
+    text-shadow: 1px 1px 2px rgb(23, 250, 2),
+    0 0 1em rgb(73, 73, 252),  
+    0 0 0.2em rgb(241, 10, 149);
+    padding: 0 80px;
+    
+    
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(29, 60, 50);
+}
+.table th, td {
+    background: rgb(186, 182, 233);
+}
+.list-image {
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+    
+}
+ul {
+    list-style-type: none;
+}
+
+@media screen {
+    
+}
